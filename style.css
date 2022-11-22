@@ -1,0 +1,22 @@
+:root {
+    --boxes: 0;
+}
+
+.main_grid {
+    max-width: 100vw;
+    height: auto;
+    display: grid;
+    gap: auto;
+    grid-template-columns: repeat(var(--boxes), 1fr);
+}
+
+.grid_item {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0.5px;
+}
+
+#init_btn {
+    box-shadow: 5px 5px;
+    margin: 2% 50%;
+}
